@@ -1,0 +1,29 @@
+.navBar
+{
+    background-color: #8A8EA5;
+
+}
+
+#coName
+{
+    float: left;
+}
+
+p
+{
+    block-size: 60px;
+    word-wrap: normal;
+}
+
+img
+{
+    height: 200px;
+    float: right;
+}
+
+footer
+{
+    background-color: #565761;  
+    height: 80px;
+    position: relative and bottom 0px;
+}
