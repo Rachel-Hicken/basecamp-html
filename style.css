@@ -3,21 +3,21 @@
     background-color: #989AAA;
     position: absolute;
     top: 0px;
-    height: 60px;
-    width: 100%;
-    left: 0;
+    height: 30px;
+    width: 62%;
+    margin-left: 18%;
+    margin-right: 19%;
 }
 #coName
 {
     color:#F0F1F3;
-    font-size: 24px;
+    font-size: 18px;
     font-family: sans-serif;
     display: block;
     float: left;
     margin: 0px;
-    padding: 0px;
-    padding-left: 15px;
-    padding-top: 15px;
+    padding-left: 40px;
+    padding-top: 6px;
 }
 ul
 {
@@ -36,48 +36,82 @@ li
 a 
 {
     color:#F0F1F3;
-    font-size: 20px;
+    font-size: 15px;
     font-family: sans-serif;
     display: block;
-    padding: 14px 16px;
+    padding: 7px 8px;
     text-decoration: none;
    
+}
+.sideBar
+{
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    top: 0;
+    overflow: hidden;
+
+}
+
+#rightSide
+{
+    right: 0px;
+}
+#leftSide
+{
+    left: 0px;
 }
 
 .mainTitle
 {
     color:#E5D923;
     background-color: black;
-    width: 100%;
-    left: 0px;
-    font-size: 28px;
+    width: 61%;
+    margin-left: 19%;
+    margin-right: 19%;
+    font-size: 20px;
     font-family: sans-serif;
-    display: block;
-    padding: 14px 16px;
-    text-align: center;
+    padding: 50px;
+    padding-left: 85px;
+    overflow: hidden;
+
+}
+.empty
+{
+    
+    height: 35px;
+    width: 45px;
+    background-color: #91FAEC;
+    border-radius: 25px;
 }
 
 p
 {
+    margin-left: 25%;
     width: 300px;
     height: 100px;
+    font-size: 12px;
     word-wrap: normal;
 }
 
 img
 {
-    height: 200px;
-    position: relative;
-    right: 10px;
- 
-    margin-bottom: 10px;
+    height: 550px;
+    z-index: 2;
+    margin-bottom: 25%;
+    margin-right: 25%;
+
+    
 }
 
 footer
 {
     background-color: #565761;  
-    height: 80px;
-    width: 100%;
+    height: 60px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 19%;
     bottom: 0;
     position: absolute;
     left: 0px;
