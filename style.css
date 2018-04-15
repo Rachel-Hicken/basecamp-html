@@ -1,19 +1,27 @@
+body
+{
+    background-color: black;
+}
+
+#main   
+{ 
+    width: 800px;
+    position: fixed;
+    left: 20%;
+    background-color: white;
+}
+
+
 .navBar
 {
     background-color: #989AAA;
-    position: absolute;
-    top: 0px;
     height: 30px;
-    width: 62%;
-    margin-left: 18%;
-    margin-right: 19%;
 }
 #coName
 {
     color:#F0F1F3;
     font-size: 18px;
     font-family: sans-serif;
-    display: block;
     float: left;
     margin: 0px;
     padding-left: 40px;
@@ -43,7 +51,7 @@ a
     text-decoration: none;
    
 }
-.sideBar
+/* .sideBar
 {
     background-color: black;
     position: fixed;
@@ -61,16 +69,14 @@ a
 #leftSide
 {
     left: 0px;
-}
+} */
 
 .mainTitle
 {
     color:#E5D923;
     background-color: black;
-    width: 61%;
-    margin-left: 19%;
-    margin-right: 19%;
     margin-bottom: 18px;
+    width: 100%;
     font-size: 20px;
     font-family: sans-serif;
     padding: 50px;
@@ -90,17 +96,20 @@ a
 
 #block1
 {
-    margin-left: 25%;
+    margin-left: 10%;
     float: left;
 }
 #block2
 {
-    margin-left: 100px;
-    float: left;
+    /* margin-left: 100px; */
+    margin: auto;
 }
 #block3
 {
-    margin-left: 55%;
+    margin-top: -115px;
+    margin-right: 10%;
+    float: right;
+
 }
 .emptyLG
 {
@@ -145,10 +154,5 @@ footer
 {
     background-color: #565761;  
     height: 60px;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 19%;
     bottom: 0;
-    position: relative;
-    left: 0px;
 }
